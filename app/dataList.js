@@ -40,7 +40,7 @@ let dataList = [
         "icon": "job.png",
         "title": "工作经历",
         "desc": `
-            <table {style.w100}>
+            <table class=${style.w100}>
                 <tr>
                     <td class=${style.w30}>2014.07 - 2015.08</td>
                     <td class=${style.w40}>中钢集团天澄环保科技股份有限公司</td>
