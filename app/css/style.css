@@ -1,0 +1,112 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Microsoft YaHei";
+    font-size:14px;
+    overflow-x: hidden;
+    line-height: 28px;
+}
+.cvbox{
+    background-color: #f3f3f3;
+    border: 1px solid #c6c6c6;
+    width: 800px;
+    max-width: 100vw;
+    margin: 0 auto;
+    min-height: 500px;
+}
+.header{
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+}
+.headerLeft{
+    width: 45px;
+    margin-right: 10px;
+    background-color: #254665;
+}
+.headerRight{
+    flex: 1;
+    background-color: #254665;
+}
+
+.footer{
+    width: 700px;
+    height: 12px;
+    background-color: #254665;
+    margin: 0 auto;
+}
+
+.cvItem{
+    margin: 30px 55px;
+}
+
+.cvTitle{
+    color: #254665;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    border-bottom: 1px solid #254665;
+    margin-bottom: 15px;
+    margin-left: 45px;
+    position: relative;
+}
+.cvIcon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    left: -45px;
+    top: 5px;
+}
+.cvIcon1{
+    background: url("../images/info.png");
+}
+.cvIcon2{
+    background: url("../images/edu.png");
+}
+.cvIcon3{
+    background: url("../images/job.png");
+}
+.cvIcon4{
+    background: url("../images/skill.png");
+}
+.cvIcon5{
+    background: url("../images/self.png");
+}
+
+.cvDesc{
+    color: #666;
+    padding-left: 50px;
+}
+
+.w100{
+    width: 100%;
+}
+.w30{
+    width: 30%;
+    font-weight: bold;
+}
+.w40{
+    width: 40%;
+    font-weight: bold;
+}
+.w50{
+    width: 50%;
+}
+.itemUl{
+    margin: 0;
+    padding-left: 25px;
+}
+.infoRow{
+    display: flex;
+}
+.infoRow>div{
+    flex: 1;
+}
+@media screen and (max-width: 600px){
+    .infoRow{
+        display: block;
+    }
+}
